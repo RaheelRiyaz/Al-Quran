@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.index {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 28px;
+    width: 32px;
+    border-radius: 5px;
+}
+
+.end {
+    position: absolute;
+    right: 35px;
+}
+
+.card-body {
+    font-size: 150%;
+    line-height: 7vh;
+    text-align: end;
+}
+
+.search-container {
+    width: 73vw;
+}
+
+.btn-outline-dark {
+    padding: 11px;
+    display: flex;
+    justify-content: center;
+    width: 62px;
+    align-items: center;
+    height: 23px;
+    font-size: 13px;
+    margin: 10px;
+}
+
+.active-pipe {
+    width: 68px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: green;
+    transform: translate(-40px, 10px);
+    margin-bottom: 10px;
+}
+
+.favourites {
+    transform: translate(59px, 10px);
+}
+.pointer{
+    cursor: pointer;
+}
